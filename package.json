@@ -1,5 +1,5 @@
 {
-  "name": "adal-angular",
+  "name": "@bah/adal-angular",
   "author": {
     "name": "Microsoft",
     "email": "nugetaad@microsoft.com",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/AzureAD/azure-activedirectory-library-for-js.git"
   },
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Windows Azure Active Directory Client Library for js",
   "keywords": [
     "implicit",
@@ -23,7 +23,9 @@
   "engines": {
     "node": ">=0.8.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sync-request": "^4.1.0"
+  },
   "devDependencies": {
     "jasmine-node": "~1.14.5",
     "jshint": "*",
